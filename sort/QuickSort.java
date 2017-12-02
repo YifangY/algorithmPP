@@ -1,6 +1,7 @@
 /*1 put the high risk later. ex: for(;left<=end&&array[left]<=midvalue;left++); better than for(;array[left]<=midvalue&&left<=end;left++); 
  * 
  */
+
 package sort;
 
 public class QuickSort {
