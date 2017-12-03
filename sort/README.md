@@ -1,6 +1,6 @@
 ## Include
 QuickSort,MergeSort, Nsquare(BubbleSort,SelectSort,InsertSort)
-
+  
 ## ToDoList
 1. **Recursion to Iterative**
 1. MergeSort 
@@ -13,19 +13,20 @@ QuickSort,MergeSort, Nsquare(BubbleSort,SelectSort,InsertSort)
    - improvement add mark place on loop's first swap place, next time star from here
 4. HeapSort
 5. Bucket sort,Counting sort,Counting sort 
-
+  
 ## Tips
  1. Put the high risk later. 
      - ex:  
  ` while(left<=end&&array[left]<=midvalue) ` better than ` (array[left]<=midvalue&&left<=end) `  
  ` (array[++l]<pivot&&l<=c_end) `       better than ` (l<=c_end&&array[++l]<pivot) ` 
  2. Bubble improvement, mark change, mark last swap
-
+  
 ## Record
  Minute/error |QS    |MS    |Insert
  ------------ |------|------|------
  Dec/02/2017  | 10/5 |      | 5/1
-
+  
+## Log
 ###### Dec 3 2017
 - Quick 
     Princeton can select pivot as begin or end , but return reverse
