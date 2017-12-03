@@ -56,7 +56,7 @@ public static void InsertSort(int []array) {
 					array[j]=array[j-1];
 				else
 					break;
-			array[j]=temp;
+			array[j]=temp;//		e:array[j-1]=temp; @1203 Tip the last j is 0 not 1
 		}	
 }	
 }
