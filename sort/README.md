@@ -2,7 +2,7 @@
 QuickSort,MergeSort, Nsquare(BubbleSort,SelectSort,InsertSort)
   
 ## ToDoList
-1. **Recursion to Iterative**
+ **Recursion to Iterative**
 1. MergeSort 
    - improvement https://algs4.cs.princeton.edu/22mergesort
 2. QuickSort 
@@ -26,7 +26,10 @@ QuickSort,MergeSort, Nsquare(BubbleSort,SelectSort,InsertSort)
  ------------ |------|------|------
  Dec/02/2017  | 10/5 |      | 5/1
   
-## Log
+ 
+
+---------
+### Log  
 ###### Dec 3 2017
 - Quick 
     Princeton can select pivot as begin or end , but return reverse
@@ -55,5 +58,5 @@ QuickSort,MergeSort, Nsquare(BubbleSort,SelectSort,InsertSort)
     for(j=0,operator=0;j<array.length-1;j++) . //bubble
     for(j=i+1;j<array.length;j++) . //Select
     ```
-    
+
 
