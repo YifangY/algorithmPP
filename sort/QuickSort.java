@@ -7,7 +7,6 @@ package sort;
 public class QuickSort {
 	public static void main(String args[]) {
 		int [] array= {1,23,323,45,10,2,3,8,12,56,78,34,410,7000};
-
 		printarray(array);
 		QuickSort2(array,0,array.length-1);
 		printarray(array);
