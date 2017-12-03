@@ -12,7 +12,7 @@ QuickSort,MergeSort, Nsquare(BubbleSort,SelectSort,InsertSort)
 3. Bubble
    - improvement add mark place on loop's first swap place, next time star from here
 4. HeapSort
-5. Bucket sort,Counting sort,Counting sort 
+5. BucketSort,CountingSort,ShellSort 
   
 ## Tips
  1. Put the high risk later. 
