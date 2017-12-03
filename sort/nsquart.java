@@ -1,11 +1,14 @@
 package sort;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class nsquart {
 public static void main(String args[]) {
 	int [] array= {182,23,323,45,10,2,3,8,12,56,78,34,410,70};
-	print(array);
+	int [] a = new Random().ints(20, 70, 100).toArray();
+	int [] b = new Random().ints(20,1,1000).toArray();
+	System.out.println(Arrays.toString(a));
+			print(array);
 //	BubbleSort(array);
 //	SelectSort(array);
 	InsertSort(array);

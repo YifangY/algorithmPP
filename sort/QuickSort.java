@@ -30,7 +30,7 @@ public class QuickSort {
 	static void QuickSort2(int [] array,int left,int right) {
 		if (left>=right)
 			return;
-		int t_i=PartitionEnd2(array,left,right);
+		int t_i=PartitionEnd(array,left,right);
 		QuickSort2(array,t_i+1, right);
 		QuickSort2(array,left, t_i-1);
 	};
