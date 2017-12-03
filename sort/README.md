@@ -13,6 +13,8 @@ QuickSort,MergeSort, Nsquare(BubbleSort,SelectSort,InsertSort)
    - improvement add mark place on loop's first swap place, next time star from here
 4. HeapSort
 5. BucketSort,CountingSort,ShellSort 
+6. Reference&Website  
+http://wuchong.me/blog/2014/02/09/algorithm-sort-summary/
   
 ## Tips
  1. Put the high risk later. 
