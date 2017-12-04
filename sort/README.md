@@ -37,7 +37,7 @@ http://wuchong.me/blog/2014/02/09/algorithm-sort-summary/
     **change i++ to ++i**   
     forget ";", spell error, var name error  
 - Insert  
-    Insert the value e:  
+    Forget the  
     ```java
     if XXXX
       else
