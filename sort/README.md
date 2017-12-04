@@ -37,7 +37,7 @@ http://wuchong.me/blog/2014/02/09/algorithm-sort-summary/
     **change i++ to ++i**   
     forget ";", spell error, var name error  
 - Insert  
-    Forget the  
+    Insert the value e:  
     ```java
     if XXXX
       else
@@ -49,7 +49,7 @@ http://wuchong.me/blog/2014/02/09/algorithm-sort-summary/
 - Quick  
     Princeton can select pivot as begin or end , but return reverse  
 - Insert   
-    Insert the value e:  
+    Forget the   
     ```java
     for(j=i;j>0;j--)  // or for(j=i;j>0;j--), I don't like>= or <= 
     // ...  move one by one
