@@ -51,14 +51,14 @@ public static void SelectSort(int []array) {
 
 public static void InsertSort(int []array) {
 	int i,j;
-	for(i=1;i<array.length;i++) //	for(i=0;i<array.length;j++)
+	for(i=1;i<array.length;++i) //	for(i=0;i<array.length;j++)
 		if (array[i]<array[i-1]) {  //e:if (array[i]>=array[i-1]) ,  No need to handle larger, if large->next loop(i++) 
 			int temp=array[i];
-			for(j=i;j>0;j--) 
+			for(j=i;j>0;--j) 
 				if (array[j-1]>temp)
 					array[j]=array[j-1];
-				else
-					break;
+				else// forget
+					break; //forget
 			array[j]=temp;//		e:array[j-1]=temp; @1203 Tip the last j is 0 not 1
 		}	
 }	

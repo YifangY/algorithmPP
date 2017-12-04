@@ -30,7 +30,7 @@ public class QuickSort {
 	static void QuickSort2(int [] array,int left,int right) {
 		if (left>=right)
 			return;
-		int t_i=PartitionEnd(array,left,right);
+		int t_i=PartitionBegin(array,left,right);
 		QuickSort2(array,t_i+1, right);
 		QuickSort2(array,left, t_i-1);
 	};
@@ -46,12 +46,8 @@ public class QuickSort {
 		int begin=C_left;  //e:begin=left-1,no need pivot is the first -> while start from ++first
 		int end=C_right+1; // need+1-> right-- soon (begining)
 		while (begin<end) {
-			while(array[++begin]<pivot)
-				if(begin==C_right)
-					break;
-			while(array[--end]>pivot)
-				if (end==C_left)
-					break;
+			while(array[++begin]<pivot&&begin<C_right);
+			while(array[--end]>pivot&&end>C_left);
 			if (begin<end)//e: begin<=end no need to swap(a,0,0)
 				swap(array,begin,end);
 		}
