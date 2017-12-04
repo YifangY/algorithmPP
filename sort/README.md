@@ -26,17 +26,30 @@ http://wuchong.me/blog/2014/02/09/algorithm-sort-summary/
 ## Record
  Minute/error |QS    |MS    |Insert
  ------------ |------|------|------
- Dec/02/2017  | 10/5 |      | 5/1
-  
+ Dec/03/2017  | 10/5 |      | 5/1
+ Dec/04/2017  | 6/crash|    | 4/1
  
 
 ---------
 ### Log  
+###### Dec 4 2017
+- Quick  
+    **change i++ to ++i**   
+    forget ";", spell error, var name error  
+- Insert   
+    Forget the 
+    ```java
+    if XXXX
+      else
+      break
+    ```
+
+
 ###### Dec 3 2017
-- Quick 
-    Princeton can select pivot as begin or end , but return reverse
-- Insert
-    Insert the value e:
+- Quick  
+    Princeton can select pivot as begin or end , but return reverse  
+- Insert   
+    Insert the value e:  
     ```java
     for(j=i;j>0;j--)  // or for(j=i;j>0;j--), I don't like>= or <= 
     // ...  move one by one
