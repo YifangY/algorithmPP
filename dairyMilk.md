@@ -3,7 +3,7 @@
  --- |------------|------|------
  349  | Intersection of Two Arrays |array,hash,set      |
  359  | Intersection of Two Arrays II   |    |
- 242	|Valid Anagram |string  |
+ 242	|Valid Anagram |string  |[字符编码笔记：ASCII，Unicode 和 UTF-8](http://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)|
 
 0. Integer is a class and int is a primitive type.
 1. Hashmap－Java   
@@ -44,6 +44,13 @@ https://docs.oracle.com/javase/7/docs/api/java/lang/String.html
 charAt()
 isEmpty()
 isEmpty()
+
+**ChartoInt**
+
+```Java
+int [] counter= new int[26];
+counter[s.charAt(i) - 'a']
+counter[Character.getNumericValue(s.charAt(i))-10]
 
 4. ArrayList
 https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
