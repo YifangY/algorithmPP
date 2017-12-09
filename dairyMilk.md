@@ -34,6 +34,9 @@ if (hmp.containsKey(nums2[temp])){
 ```  
 		
 2. set
+Set<integer> sn= new HashSet<>()
+	sn.add(value)
+	sn.contains(value)
 
 3. String
 https://docs.oracle.com/javase/7/docs/api/java/lang/String.html
@@ -43,11 +46,14 @@ isEmpty()
 isEmpty()
 
 4. ArrayList
+https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
 ConS
 ArrayList() or ArrayList(size)
 
 Op
-add(value,add(index,value)
-size(),remove(value)||remove(index)
-get(index),isEmpty(),set(index,value)//replaced
-https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+add(value,add(index,value)  
+size(),remove(value)||remove(index)  
+get(index),isEmpty(),set(index,value)//replaced  
+
+5. Array
+Array.Sort(array)
