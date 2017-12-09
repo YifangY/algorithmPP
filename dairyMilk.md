@@ -5,8 +5,8 @@
  359  | Intersection of Two Arrays II   |    |
  242	|Valid Anagram |string  |[字符编码笔记：ASCII，Unicode 和 UTF-8](http://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)|
 
-0. Integer is a class and int is a primitive type.
-1. Hashmap－Java   
+- 0. Integer is a class and int is a primitive type.
+- 1. Hashmap－Java   
 **KEY vs VALUE**
 **Hashmap vs Hashtable vs HashSet cs HashCode**
 **map,hash**
@@ -33,12 +33,12 @@ if (hmp.containsKey(nums2[temp])){
     }  		
 ```  
 		
-2. set
+- 2. set
 Set<integer> sn= new HashSet<>()
 	sn.add(value)
 	sn.contains(value)
 
-3. String
+- 3. String
 https://docs.oracle.com/javase/7/docs/api/java/lang/String.html
 
 charAt()
@@ -51,8 +51,9 @@ isEmpty()
 int [] counter= new int[26];
 counter[s.charAt(i) - 'a']
 counter[Character.getNumericValue(s.charAt(i))-10]
+```
 
-4. ArrayList
+- 4. ArrayList
 https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
 ConS
 ArrayList() or ArrayList(size)
@@ -62,5 +63,5 @@ add(value,add(index,value)
 size(),remove(value)||remove(index)  
 get(index),isEmpty(),set(index,value)//replaced  
 
-5. Array
+- 5. Array
 Array.Sort(array)
