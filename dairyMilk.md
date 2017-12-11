@@ -1,3 +1,15 @@
+###### Dec 10 2017
+No |Topic    |Tag    |Comments
+ --- |------------|------|------
+ 20| Valid Parentheses |array,stack      | 
+
+### String
+C++ String.length()
+
+### C++ application vector
+set size of vector(vector<t> abc(**size**)) is bad, because vector will be fixed on this size except "resize+shrink_to_fit"
+
+
 ###### Dec 9 2017
  No |Topic    |Tag    |Comments
  --- |------------|------|------
