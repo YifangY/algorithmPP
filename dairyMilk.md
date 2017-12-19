@@ -1,3 +1,32 @@
+###### Dec 19 2017
+No |Topic    |Tag    |Comments
+ --- |------------|------|------
+ 67| Add Binary |string      | 
+
+
+```Java  
+for(int i=temp_length-1;i>=0;i--){
+    if (aa>=0){
+	v=a.charAt(aa)-48;
+	--aa;
+	}else av=0;
+    if (bb>=0) {
+	bv=b.charAt(bb)-48;
+	--bb;
+	}else bv=0;
+    result.append((av+bv+plus)%2);
+    plus=(av+bv+plus)/2;
+}
+//use sum instead of "else XX",b.charAt(j--) - '0' transfer char to int
+while (i >= 0 || j >= 0) {
+    int sum = carry;
+    if (j >= 0) sum += b.charAt(j--) - '0';
+    if (i >= 0) sum += a.charAt(i--) - '0';
+    sb.append(sum % 2);
+    carry = sum / 2;
+}
+```
+
 ###### Dec 10 2017
 No |Topic    |Tag    |Comments
  --- |------------|------|------
