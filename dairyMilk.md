@@ -1,8 +1,28 @@
+###### Dec 20 2017
+No |Topic    |Tag    |Comments
+ --- |------------|------|------
+ 434|number of segments(find space)|String| check i!=' 'and i-1==' '; i==0?
+ 387|First Unique Character in a String|String|for*2,no need queue
+ 383|Ransom Note|String|~delete~ just count
+ 345|Reverse Vowels of a String|String|String.contain,String.toCharArray,easy loop+border(begin<end)
+ 125|Valid Palindrome|String|easy loop+border(begin<end)
+ 680|Valid Palindrome II|String|same as125
+ 58|Length of Last Word|String|one line s.trim().length()-s.trim().lastIndexOf(" ")-1;
+ 38|Count and Say|String|**border**
+ 28|Implement strStr()|String|**border**
+ 14| Longest Common Prefix|String| force is better than KMP/4 solutions
+ 13|Roman to Integer|String|jump
+ 
+
 ###### Dec 19 2017
 No |Topic    |Tag    |Comments
  --- |------------|------|------
- 67| Add Binary |string      | 
- 541| Reverse String II|good idea|
+ 67| Add Binary |  string |     
+ 541| Reverse String II||good idea
+ 520|Detect Capital||
+ 344|Reverse String| |~delete~ StringBuilder
+ 557|Reverse Words in a String III||??Timeout by Stack,Copy solution
+
 
 
 ```Java  
