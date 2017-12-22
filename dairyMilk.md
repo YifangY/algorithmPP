@@ -1,3 +1,14 @@
+###### Dec 21 2017
+No |Topic    |Tag    |Comments
+ --- |------------|------|------
+ 459|Repeated Substring Pattern|String|  1.break inside loop;2. judge by i+1
+ 696|Count Binary Substrings|String|**1.judge by i-1 2.Why i=1 Why i--**, Copy solution
+ 443|String Compression|String| 
+ 686| Repeated String Match|String|int i=lenB/lenA is not good because B=2 A=1 or B=5 A=10(A may need to repeat twice);recommend StringBuilder(A)>lenB loop, then plus one judge
+551| Student Attendance Record I|String|Jump
+ 
+ Undo 521(google),680(facebook),606 in-order tree
+
 ###### Dec 20 2017
 No |Topic    |Tag    |Comments
  --- |------------|------|------
