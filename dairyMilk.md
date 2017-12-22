@@ -1,6 +1,6 @@
 ###### Dec 21 2017
 No |Topic    |Tag    |Comments
- --- |------------|------|------
+ --- |---------------------- |------|------
  459|Repeated Substring Pattern|String|  1.break inside loop;2. judge by i+1
  696|Count Binary Substrings|String|**1.judge by i-1 2.Why i=1 Why i--**, Copy solution
  443|String Compression|String| 
@@ -11,7 +11,7 @@ No |Topic    |Tag    |Comments
 
 ###### Dec 20 2017
 No |Topic    |Tag    |Comments
- --- |------------|------|------
+ --- |---------------------- |------|------
  434|number of segments(find space)|String| check i!=' 'and i-1==' '; i==0?
  387|First Unique Character in a String|String|for*2,no need queue
  383|Ransom Note|String|~delete~ just count
