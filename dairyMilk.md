@@ -1,3 +1,16 @@
+###### Dec 22 2017
+
+No |Topic    |Tag    |Comments
+ --- |------- |------|------
+1|Two Sum|ArrayList|hashtable
+26|Remove Duplicates from Sorted Array|ArrayList|border		
+27|Remove Element|ArrayList|	
+35|Search Insert Position |ArrayList|binary search **NOT INCLUDE MID**
+66|Plus One|ArrayList|COPY SOLUTION/Good Idea
+118|Pascal's Triangle  |ArrayList|List<List<Integer>> usage sample
+119|Pascal's Triangle II|ArrayList|Second loop is from end to begin
+
+
 ###### Dec 21 2017
 No |Topic    |Tag    |Comments
  --- |---------------------- |------|------
