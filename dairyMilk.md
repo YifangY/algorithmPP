@@ -103,7 +103,7 @@ set size of vector(vector<t> abc(**size**)) is bad, because vector will be fixed
  No |Topic    |Tag    |Comments
  --- |------------|------|------
  349  | Intersection of Two Arrays |array,hash,set      |
- 359  | Intersection of Two Arrays II   |    |
+ 350  | Intersection of Two Arrays II   |    |
  242	|Valid Anagram |string  |[字符编码笔记：ASCII，Unicode 和 UTF-8](http://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)|
 
 ### 0. Integer is a class and int is a primitive type.
