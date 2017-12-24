@@ -1,3 +1,18 @@
+###### Dec 23 2017
+No |Topic    |Tag    |Comments
+ --- |------- |------|------
+121|Best Time to Buy and Sell Stock|Array|easy
+122|Best Time to Buy and Sell Stock II|Array|have simple solution
+167|Two Sum II - Input array is sorted|Array|basic program,while(i<j)
+169|Majority Element|Array|Boyer-Moore Voting Algorithm
+189|Rotate Array|Array|have simple solution
+217|Contains Duplicate|Array|~delete~
+219|Contains Duplicate II|Array|~delete~
+268|Missing Number|Array|by XOR jump
+283|Move Zeroes|Array|**have simple solution**
+414|Third Maximum Number|Array|by Integer jump
+
+
 ###### Dec 22 2017
 
 No |Topic    |Tag    |Comments
