@@ -1,3 +1,31 @@
+###### Dec 24 2017
+No |Topic    |Tag    |Comments
+ --- |------- |------|------
+696|Count Binary Substrings|String|1.judge by i-1 2.Why i=1 Why i--, Copy solution
+448|Find All Numbers Disappeared in an Array   |Array|Good idea/Copy Answer
+485|Max Consecutive Ones   |Array|look/ex:[1]
+532|K-diff Pairs in an Array   |Array|"Good idea/my idea a.two hash(one mark accessed,one calculate) b.hash2(key,key+-k))solution:don't worry value-k,just value+k,because value-k will count on your pair"
+561|Array Partition I   |Array|TBD,VIP answer is not sort
+566|Reshape the Matrix   |Array|look/caution border see comm
+581|Shortest Unsorted Continuous Subarray  |Array|ex:[1,3,2,2,2],[1,3,2,3,3],[2,3,3,2,4],[1,2,4,5,3]
+605|Can Place Flowers   |Array|solution is hard to think/caution third if see comm
+628|Maximum Product of Three Numbers   |Array|relate to 414 ex[-1,-2,-3], if add comm(n>0 find max,n<0 find min), it is error in all neg
+643|Maximum Average Subarray I   |Array|look/good idea/complexit is n
+665|Non-decreasing Array   |Array|hard to define pos/ex:[3,4,2,3]/change the array value
+674|Longest Continuous Increasing Subsequence|Array|not simple as you think, write again/how to handle the last element
+747|Largest Number Greater Than Twice of Others   |Array|easy/jump
+697|Degree of an Array   |hash|3 tables
+724|Find Pivot Index   |hash|Try again: must not include pivot and include 0 and end(sum is zero)|ex:[-1,-1,-1,0,1,1]
+661|Image Smoother   |Array|jump,hard to understand, easy to do; caution the border
+204|Count Primes   |math|no
+205|Isomorphic Strings   |hash|I use two hashmap…
+290|Word Pattern   |hash|how to use hashmap with c
+7|Reverse Integer   |math|Int boarder/long
+9|Palindrome Number   |math|reverse half good idea//base on 7/<0false/ex:21120
+69|Sqrt(x)   |math|REMEMBER IT
+
+
+
 ###### Dec 23 2017
 No |Topic    |Tag    |Comments
  --- |------- |------|------
