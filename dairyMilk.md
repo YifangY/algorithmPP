@@ -1,3 +1,27 @@
+###### Dec 25 2017
+No |Topic    |Tag    |Comments
+ --- |------- |------|------
+389|Find the Difference |hash|good idea not hash//for hash it may not by sort, hash all please
+409|Longest Palindrome   |hash|ex:"bb"
+438|Find All Anagrams in a String   |hash|template at substring match
+447|Number of Boomerangs   |hash|hash map as count table//my idea matrix,read every line
+463|Island Perimeter   |hash|no need DFS//Only one island so it is simpler// 4 direction to 2 directions.
+500|Keyboard Row   |hash|easy//up and low case
+575|Distribute Candies   |hash|Solution:In fact, there is only two possible
+594|Longest Harmonious Subsequence   |hash|//subsequence
+599|Minimum Index Sum of Two Lists   |hash|//Why does it need String[]//consider =
+645|Set Mismatch   |math|caution 3 abs//ex[2,2],[2,3,2]
+690|Employee Importance   |dfs|caution map(?,?)
+202|Happy Number   |math|copy answer/slow,fast
+21|Merge Two Sorted Lists   |Linked|look/jump
+83|Remove Duplicates from Sorted List   |Linked|look/jump/caution:next is null
+141|Linked List Cycle   |Linked|look
+160|Intersection of Two Linked Lists   |Linked|look/good idea
+203|Remove Linked List Elements   |Linked|look/ex[6,6] remove 6//two pointer
+237|Delete Node in a Linked List   |Linked|Look/interesting Java
+206|Reverse Linked List   |Linked|look
+234|Palindrome Linked List   |Linked|good//move fast first//odd or even
+
 ###### Dec 24 2017
 No |Topic    |Tag    |Comments
  --- |------- |------|------
