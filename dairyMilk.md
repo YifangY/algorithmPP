@@ -1,3 +1,34 @@
+###### Dec 26 2017
+No |Topic    |Tag    |Comments
+ --- |------- |------|------
+December 26, 2017|690|Employee Importance   |dfs|caution map(?,?)
+December 26, 2017|202|Happy Number   |math|copy answer/slow,fast
+December 26, 2017|21|Merge Two Sorted Lists   |Linked|look/jump
+December 26, 2017|83|Remove Duplicates from Sorted List   |Linked|look/jump/caution:next is null
+December 26, 2017|141|Linked List Cycle   |Linked|look
+December 26, 2017|160|Intersection of Two Linked Lists   |Linked|look/good idea
+December 26, 2017|203|Remove Linked List Elements   |Linked|look/ex[6,6] remove 6//two pointer
+December 26, 2017|237|Delete Node in a Linked List   |Linked|Look/interesting Java
+December 26, 2017|206|Reverse Linked List   |Linked|look
+December 26, 2017|234|Palindrome Linked List   |Linked|good//move fast first//odd or even
+December 26, 2017|100|Same Tree   |tree|recur is better
+December 26, 2017|101|Symmetric Tree   |tree|
+December 26, 2017|104|Maximum Depth of Binary Tree   |tree|
+December 26, 2017|107|Binary Tree Level Order Traversal II   |tree|BFS [1,2,3,4,6,null,5] output [1,2,3,4,6,null,5] //ex:[3,9,20,null,null,15,7]
+December 26, 2017|110|Balanced Binary Tree   |tree|info solution
+December 26, 2017|111|Minimum Depth of Binary Tree   |tree|info solution
+December 26, 2017|112|Path Sum   |tree|[],0 is false
+December 26, 2017|226|Invert Binary Tree   |tree|no comments
+December 26, 2017|235|Lowest Common Ancestor of a Binary Search Tree   |tree|not bianli//good
+December 26, 2017|257|Binary Tree Paths   |tree|dfs
+December 26, 2017|404|Sum of Left Leaves |tree|
+December 26, 2017|437|Path Sum III   |tree|recur//good idea//AND two solution in discussion//TBD
+December 26, 2017|538|Convert BST to Greater Tree   |tree|COPY SOLUTION/Good Idea
+December 26, 2017|543|Diameter of Binary Tree   |tree|solution is better//dps
+December 26, 2017|563|Binary Tree Tilt   |tree|COPY SOLUTION/Good Idea//result location changing will change result//TBD Time exceed
+December 26, 2017|231|Power of Two   |Math|
+
+
 ###### Dec 25 2017
 No |Topic    |Tag    |Comments
  --- |------- |------|------
