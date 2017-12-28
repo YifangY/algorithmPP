@@ -1,3 +1,21 @@
+###### Dec 27 2017
+No |Topic    |Tag    |Comments
+ --- |------- |------|------
+108|Convert Sorted Array to Binary Search Tree   |tree|ref web//caution begin>end, so equal is OK
+501|Find Mode in Binary Search Tree   |tree|[2147483647]  //caution the last not equal element
+572|Subtree of Another Tree   |tree|
+606|Construct String from Binary Tree   |tree|solution is simple
+617|Merge Two Binary Trees   |tree|COPY SOLUTION/Good Idea
+637|Average of Levels in Binary Tree   |tree|bfs 
+653|Two Sum IV - Input is a BST   |tree|vfs+hash
+671|Second Minimum Node In a Binary Tree   |tree|Not understand the question at that time//look
+687|Longest Univalue Path   |tree|Copy Solution//Good Solution It use arrowLeft = 0, arrowRight = 0; to reset uncontinue value AND caution arrowLength return value is not the longest value
+669|Trim a Binary Search Tree   |tree|Copy Solution//Good Solution
+367|Valid Perfect Square   |binary Search|ex:104976//no use mid with nums/mid(lost something), mid*mid with nums is OK//left<=right "=" is important// mid type is long
+374|Guess Number Higher or Lower   |binary Search|easy
+744|Find Smallest Letter Greater Than Target   |binary Search|binary border see comment
+441|Arranging Coins   |binary Search|Like 367//what about border?
+
 ###### Dec 26 2017
 No |Topic    |Tag    |Comments
  --- |------- |------|------
