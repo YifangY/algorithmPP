@@ -1,3 +1,38 @@
+###### Dec 28 2017
+No |Topic    |Tag    |Comments
+ --- |------- |------|------
+695|Max Area of Island   |dfs|
+733|Flood Fill   |dfs|solution a little improvement:if (color != newColor) dfs(image, sr, sc, color, newColor); to save space
+717|1-bit and 2-bit Characters   |array|easy
+168|Excel Sheet Column Title   |Math|caution n-1 at second
+171|Excel Sheet Column Number   |Math|
+172|Factorial Trailing Zeroes   |Math|Copy Solution//n == 0 ? 0 : n / 5 + trailingZeroes(n / 5);
+258|Add Digits   |Math|Copy Solution//n == 0 ? 0 : n / 5 + trailingZeroes(n / 5);
+263|Ugly Number   |Math|  Copy Solution// for (int i=2; i<6 && num>0; i++)   while (num % i == 0)   num /= i;
+326|Power of Three   |Math|ref solution
+400|Nth Digit   |Math|Copy Solution//TBD
+415|Add Strings   |Math|Copy Solution
+453|Minimum Moves to Equal Array Elements   |Math|sum + m * (n - 1) = x * n AND  x = minNum + m SO sum - minNum * n = m
+507|Perfect Number   |Math|ref solution//sum-num==num; not overflow
+598|Range Addition II   |Math|ref solution//easy to understand
+633|Sum of Square Numbers   |binary Search|caution index type
+728|Self Dividing Numbers   |Math|Brute Force
+155|Min Stack   |Stack|ref disscuss #2//don't forget <= AND initialized stack min
+225|Implement Stack using Queues   |Stack|easy//by one queue
+232|Implement Queue using Stacks   |Stack|easy//by two stack
+682|Baseball Game   |Stack|easy
+496|Next Greater Element I   |Stack|ref discussion(better than solution)//good question
+176|Second Highest Salary   |DB|jump
+196|Delete Duplicate Emails |DB|Copy Solution//DELETE must
+596|Classes More Than 5 Students   |DB|distinct
+197|Rising Temperature   |DB|DATEDIFF(w2.date, w1.date) = 1//2-1
+183|Customers Who Never Order   |DB|ref solution//Not in//what about left natural join
+181|Employees Earning More Than Their Managers   |DB|look
+182|Duplicate Emails   |DB|jump
+620|Not Boring Movies   |DB|order by rating DESC
+627|Swap Salary   |DB|Copy Solution//UPDATE m to f
+595|Big Countries   |DB|jump,too easy
+
 ###### Dec 27 2017
 No |Topic    |Tag    |Comments
  --- |------- |------|------
